@@ -6,7 +6,8 @@ export const home=(req,res)=>{
     res.status(200).json({
        success:true,
        message:"hlo details mayur",
-       server:process.env.SERVER_ID
+       server:process.env.SERVER_ID,
+       port:process.env.port
     })
 // to show something in the browser
 

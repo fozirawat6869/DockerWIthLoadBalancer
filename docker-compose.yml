@@ -8,16 +8,19 @@ services:
     build: ./backend
     environment:
       - SERVER_ID=server1
+      - port=5000
   
   backend2:
     build: ./backend
     environment:
       - SERVER_ID=server2
+      - port=5001
 
   backend3:
     build: ./backend
     environment:
       - SERVER_ID=server3
+      - port=5002
 
   frontend:
     build: ./frontend
