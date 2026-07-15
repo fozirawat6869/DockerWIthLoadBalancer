@@ -4,7 +4,7 @@
 This project demonstrates a load-balanced backend system using Docker and Nginx.
 It runs 3 separate Node.js backend servers on different ports (5000, 5001, 5002) inside Docker containers.
 
-Nginx acts as a reverse proxy + load balancer, distributing incoming requests across all backend servers to ensure:
+Nginx acts as a reverse proxy + load balancer, distributing incoming requests across all backend servers to ensure:-
 
 High availability
 Scalability
