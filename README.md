@@ -23,7 +23,7 @@ Server1  Server2  Server3
 5000     5001     5002
 
 
-⚙️ Technologies Used :-
+⚙️ Technologies Used :
 Docker 🐳
 Docker Compose
 Nginx (Load Balancer)
