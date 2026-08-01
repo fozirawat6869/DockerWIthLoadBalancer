@@ -44,6 +44,6 @@ docker-compose up -d
 docker-compose down
 
 🌐 Access Application
-   Open in browser: http://localhost:8090/api/details
+   Open in browser : http://localhost:8090/api/details
 👉 This is Nginx Load Balancer entry point
 
